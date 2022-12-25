@@ -7,5 +7,20 @@
 <body>
       <h1align="center">奇妙の网站</h1>
       <p><s>内容将到来</s></p>
+      <p id="text1"></p>    
+<script>        
+    var i=0;
+    var str="圣诞节快乐888888888888";            
+    window.οnlοad=function typing(){
+                //获取div
+        var mydiv=document.getElementById("text1");
+        mydiv.innerHTML+=str.charAt(i);
+        i++;
+        var id=setTimeout(typing,80);
+        if(i==str.length){
+            clearTimeout(id);
+            }
+        }
+</script>
 </body>
 </html>
