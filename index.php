@@ -264,7 +264,7 @@
                        <h1>留言板</h1>	
 		   <?php
         // 连接数据库
-        $servername = "localhost";
+        $servername = "47.108.116.151";
         $username = "47_108_116_151";
         $password = "enZhHNTJJmGHxFyH";
         $dbname = "47_108_116_151";
