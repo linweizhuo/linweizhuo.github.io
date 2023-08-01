@@ -1,0 +1,27 @@
+/* 修改输入框样式 */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* 鼠标悬停时的样式 */
+  input[type="text"]:hover, textarea:hover {
+    border-color: #666;
+  }
+  
+  /* 获取焦点时的样式 */
+  input[type="text"]:focus, textarea:focus {
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* 禁用状态下的样式 */
+  input[type="text"]:disabled, textarea:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+  }
+  
